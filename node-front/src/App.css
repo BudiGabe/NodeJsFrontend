@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background: rgb(201, 202, 203);
+  font-family: arial;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(51, 51, 51);
+  color:rgb(255,255,255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1{
+  font-size: 20px;
+  margin-left: 4rem;
+}
+
+header h2{
+  margin-right: 3rem;
+  font-size: 16px;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+}
+
+.headerelements{
+  margin-right: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2{
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+form input{
+  width: 200px;
+  height: 40px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 93vh;
+  width: 80vw;
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  gap: 10px;
+}
+.checkboxbtn{
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;;
+}
+
+.termsandcontions{
+  margin-top :25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.termsandcontions h3{
+  font-size: 11px;
+}
+
+.registerbtn h3{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 12px;
+}
+
+.homepage, .topsamples, .loginpage, .registerpage, .errorpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 93vh;
+}
+
+.registerbtn, .loginbtn{
+  border: 1px solid;
+  width: 200px;
+  height: 40px;
+  margin-top: 35px;
+  background-color: rgb(51, 51, 51);
+  color:rgb(255,255,255);
+  cursor: pointer;
+}
+
+.test-btn{
+  height: 100px;
+  width: 300px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.producer {
+  margin-top : 10px;
+  display: flex;
+}
+
+.SampleCard{
+  justify-content: center;
+  align-items:center;
+  height: 150px;
+  width: 400px;
+}
+
+.SampleTitle{
+  font-size: 28px;
+  color:black;
+}
+
+.SampleAuthor{
+  font-size: 14px;
+  color:gray;
+}
